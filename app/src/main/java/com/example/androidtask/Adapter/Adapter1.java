@@ -1,5 +1,6 @@
 package com.example.androidtask.Adapter;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -50,8 +51,6 @@ public class Adapter1 extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-
-
         if (getItemViewType(position) == 0) {
             Item1 item = (Item1) items.get(position).getObj();
             ((ViewHolder1) holder).setData(item);

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         items.add(new Item(2, item31));
         Item1 item12 = new Item1(R.drawable.img2, "Explore shades of green", "Lavish Greens", Color.argb(255, 0, 102, 0), Color.argb(255, 204, 255, 204));
         items.add(new Item(0, item12));
-        Item2 item22 = new Item2("Bring flower power to your house!", R.drawable.rose, Color.argb(180, 255, 153, 204));
+        Item2 item22 = new Item2("Bring flower power to your house!", R.drawable.rose, Color.argb(200, 255, 153, 204));
         items.add(new Item(1, item22));
         Item1 item11 = new Item1(R.drawable.img3, "The Night Sky", "Mountains Calling!", Color.argb(255, 0, 51, 102), Color.argb(255, 204, 229, 255));
         items.add(new Item(0, item11));
